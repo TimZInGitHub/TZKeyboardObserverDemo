@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88ED54621C28360500612A97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ED54611C28360500612A97 /* main.m */; };
+		88ED54651C28360500612A97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ED54641C28360500612A97 /* AppDelegate.m */; };
+		88ED54681C28360500612A97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ED54671C28360500612A97 /* ViewController.m */; };
+		88ED546B1C28360500612A97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88ED54691C28360500612A97 /* Main.storyboard */; };
+		88ED546D1C28360500612A97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88ED546C1C28360500612A97 /* Assets.xcassets */; };
+		88ED54701C28360500612A97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88ED546E1C28360500612A97 /* LaunchScreen.storyboard */; };
+		88ED547B1C28360500612A97 /* TZKeyboardObserverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ED547A1C28360500612A97 /* TZKeyboardObserverTests.m */; };
+		88ED54861C28360500612A97 /* TZKeyboardObserverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ED54851C28360500612A97 /* TZKeyboardObserverUITests.m */; };
+		88ED54951C28369600612A97 /* TZTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ED54941C28369600612A97 /* TZTextField.m */; };
+		88ED54981C283AE000612A97 /* UIView+JTCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ED54971C283AE000612A97 /* UIView+JTCExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88ED54771C28360500612A97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88ED54551C28360500612A97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88ED545C1C28360500612A97;
+			remoteInfo = TZKeyboardObserver;
+		};
+		88ED54821C28360500612A97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88ED54551C28360500612A97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88ED545C1C28360500612A97;
+			remoteInfo = TZKeyboardObserver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88ED545D1C28360500612A97 /* TZKeyboardObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TZKeyboardObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88ED54611C28360500612A97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88ED54631C28360500612A97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88ED54641C28360500612A97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88ED54661C28360500612A97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88ED54671C28360500612A97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88ED546A1C28360500612A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88ED546C1C28360500612A97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88ED546F1C28360500612A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88ED54711C28360500612A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88ED54761C28360500612A97 /* TZKeyboardObserverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TZKeyboardObserverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88ED547A1C28360500612A97 /* TZKeyboardObserverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZKeyboardObserverTests.m; sourceTree = "<group>"; };
+		88ED547C1C28360500612A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88ED54811C28360500612A97 /* TZKeyboardObserverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TZKeyboardObserverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88ED54851C28360500612A97 /* TZKeyboardObserverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZKeyboardObserverUITests.m; sourceTree = "<group>"; };
+		88ED54871C28360500612A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88ED54931C28369600612A97 /* TZTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTextField.h; sourceTree = "<group>"; };
+		88ED54941C28369600612A97 /* TZTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTextField.m; sourceTree = "<group>"; };
+		88ED54961C283AE000612A97 /* UIView+JTCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JTCExtension.h"; sourceTree = "<group>"; };
+		88ED54971C283AE000612A97 /* UIView+JTCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JTCExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88ED545A1C28360500612A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ED54731C28360500612A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ED547E1C28360500612A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88ED54541C28360500612A97 = {
+			isa = PBXGroup;
+			children = (
+				88ED545F1C28360500612A97 /* TZKeyboardObserver */,
+				88ED54791C28360500612A97 /* TZKeyboardObserverTests */,
+				88ED54841C28360500612A97 /* TZKeyboardObserverUITests */,
+				88ED545E1C28360500612A97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88ED545E1C28360500612A97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88ED545D1C28360500612A97 /* TZKeyboardObserver.app */,
+				88ED54761C28360500612A97 /* TZKeyboardObserverTests.xctest */,
+				88ED54811C28360500612A97 /* TZKeyboardObserverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88ED545F1C28360500612A97 /* TZKeyboardObserver */ = {
+			isa = PBXGroup;
+			children = (
+				88ED54631C28360500612A97 /* AppDelegate.h */,
+				88ED54641C28360500612A97 /* AppDelegate.m */,
+				88ED54661C28360500612A97 /* ViewController.h */,
+				88ED54671C28360500612A97 /* ViewController.m */,
+				88ED54931C28369600612A97 /* TZTextField.h */,
+				88ED54941C28369600612A97 /* TZTextField.m */,
+				88ED54691C28360500612A97 /* Main.storyboard */,
+				88ED54961C283AE000612A97 /* UIView+JTCExtension.h */,
+				88ED54971C283AE000612A97 /* UIView+JTCExtension.m */,
+				88ED546C1C28360500612A97 /* Assets.xcassets */,
+				88ED546E1C28360500612A97 /* LaunchScreen.storyboard */,
+				88ED54711C28360500612A97 /* Info.plist */,
+				88ED54601C28360500612A97 /* Supporting Files */,
+			);
+			path = TZKeyboardObserver;
+			sourceTree = "<group>";
+		};
+		88ED54601C28360500612A97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88ED54611C28360500612A97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88ED54791C28360500612A97 /* TZKeyboardObserverTests */ = {
+			isa = PBXGroup;
+			children = (
+				88ED547A1C28360500612A97 /* TZKeyboardObserverTests.m */,
+				88ED547C1C28360500612A97 /* Info.plist */,
+			);
+			path = TZKeyboardObserverTests;
+			sourceTree = "<group>";
+		};
+		88ED54841C28360500612A97 /* TZKeyboardObserverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88ED54851C28360500612A97 /* TZKeyboardObserverUITests.m */,
+				88ED54871C28360500612A97 /* Info.plist */,
+			);
+			path = TZKeyboardObserverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88ED545C1C28360500612A97 /* TZKeyboardObserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88ED548A1C28360500612A97 /* Build configuration list for PBXNativeTarget "TZKeyboardObserver" */;
+			buildPhases = (
+				88ED54591C28360500612A97 /* Sources */,
+				88ED545A1C28360500612A97 /* Frameworks */,
+				88ED545B1C28360500612A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TZKeyboardObserver;
+			productName = TZKeyboardObserver;
+			productReference = 88ED545D1C28360500612A97 /* TZKeyboardObserver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88ED54751C28360500612A97 /* TZKeyboardObserverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88ED548D1C28360500612A97 /* Build configuration list for PBXNativeTarget "TZKeyboardObserverTests" */;
+			buildPhases = (
+				88ED54721C28360500612A97 /* Sources */,
+				88ED54731C28360500612A97 /* Frameworks */,
+				88ED54741C28360500612A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88ED54781C28360500612A97 /* PBXTargetDependency */,
+			);
+			name = TZKeyboardObserverTests;
+			productName = TZKeyboardObserverTests;
+			productReference = 88ED54761C28360500612A97 /* TZKeyboardObserverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88ED54801C28360500612A97 /* TZKeyboardObserverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88ED54901C28360500612A97 /* Build configuration list for PBXNativeTarget "TZKeyboardObserverUITests" */;
+			buildPhases = (
+				88ED547D1C28360500612A97 /* Sources */,
+				88ED547E1C28360500612A97 /* Frameworks */,
+				88ED547F1C28360500612A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88ED54831C28360500612A97 /* PBXTargetDependency */,
+			);
+			name = TZKeyboardObserverUITests;
+			productName = TZKeyboardObserverUITests;
+			productReference = 88ED54811C28360500612A97 /* TZKeyboardObserverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88ED54551C28360500612A97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TZ;
+				TargetAttributes = {
+					88ED545C1C28360500612A97 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					88ED54751C28360500612A97 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 88ED545C1C28360500612A97;
+					};
+					88ED54801C28360500612A97 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 88ED545C1C28360500612A97;
+					};
+				};
+			};
+			buildConfigurationList = 88ED54581C28360500612A97 /* Build configuration list for PBXProject "TZKeyboardObserver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88ED54541C28360500612A97;
+			productRefGroup = 88ED545E1C28360500612A97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88ED545C1C28360500612A97 /* TZKeyboardObserver */,
+				88ED54751C28360500612A97 /* TZKeyboardObserverTests */,
+				88ED54801C28360500612A97 /* TZKeyboardObserverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88ED545B1C28360500612A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88ED54701C28360500612A97 /* LaunchScreen.storyboard in Resources */,
+				88ED546D1C28360500612A97 /* Assets.xcassets in Resources */,
+				88ED546B1C28360500612A97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ED54741C28360500612A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ED547F1C28360500612A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88ED54591C28360500612A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88ED54681C28360500612A97 /* ViewController.m in Sources */,
+				88ED54981C283AE000612A97 /* UIView+JTCExtension.m in Sources */,
+				88ED54651C28360500612A97 /* AppDelegate.m in Sources */,
+				88ED54621C28360500612A97 /* main.m in Sources */,
+				88ED54951C28369600612A97 /* TZTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ED54721C28360500612A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88ED547B1C28360500612A97 /* TZKeyboardObserverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88ED547D1C28360500612A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88ED54861C28360500612A97 /* TZKeyboardObserverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88ED54781C28360500612A97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88ED545C1C28360500612A97 /* TZKeyboardObserver */;
+			targetProxy = 88ED54771C28360500612A97 /* PBXContainerItemProxy */;
+		};
+		88ED54831C28360500612A97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88ED545C1C28360500612A97 /* TZKeyboardObserver */;
+			targetProxy = 88ED54821C28360500612A97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88ED54691C28360500612A97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88ED546A1C28360500612A97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88ED546E1C28360500612A97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88ED546F1C28360500612A97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88ED54881C28360500612A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88ED54891C28360500612A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88ED548B1C28360500612A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TZKeyboardObserver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0085.TZKeyboardObserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88ED548C1C28360500612A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TZKeyboardObserver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0085.TZKeyboardObserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88ED548E1C28360500612A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TZKeyboardObserverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0085.TZKeyboardObserverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TZKeyboardObserver.app/TZKeyboardObserver";
+			};
+			name = Debug;
+		};
+		88ED548F1C28360500612A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TZKeyboardObserverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0085.TZKeyboardObserverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TZKeyboardObserver.app/TZKeyboardObserver";
+			};
+			name = Release;
+		};
+		88ED54911C28360500612A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TZKeyboardObserverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0085.TZKeyboardObserverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TZKeyboardObserver;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		88ED54921C28360500612A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TZKeyboardObserverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0085.TZKeyboardObserverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TZKeyboardObserver;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88ED54581C28360500612A97 /* Build configuration list for PBXProject "TZKeyboardObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88ED54881C28360500612A97 /* Debug */,
+				88ED54891C28360500612A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88ED548A1C28360500612A97 /* Build configuration list for PBXNativeTarget "TZKeyboardObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88ED548B1C28360500612A97 /* Debug */,
+				88ED548C1C28360500612A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88ED548D1C28360500612A97 /* Build configuration list for PBXNativeTarget "TZKeyboardObserverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88ED548E1C28360500612A97 /* Debug */,
+				88ED548F1C28360500612A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88ED54901C28360500612A97 /* Build configuration list for PBXNativeTarget "TZKeyboardObserverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88ED54911C28360500612A97 /* Debug */,
+				88ED54921C28360500612A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88ED54551C28360500612A97 /* Project object */;
+}
